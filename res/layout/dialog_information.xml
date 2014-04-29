@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="关于"
+			android:textSize="25dp"
+			android:textColor="#8fffa0"
+			android:gravity="center"/>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/equationl"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="首次使用本软件会赠送105积分，每次使用程序积分必须高于100且会扣除1积分，获取源码需要500积分，获取源码后相当于激活程序，激活后每次使用不再有限制(无需积分高于100，每次使用不扣除积分)，积分可通过'获取积分'按钮免费下载使用应用获取。"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="联系作者:qq1335778502 网站:http://zisuw.com "/>
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="--资速开发组方程敬上"/>
+		
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Copyright © 2014 equationl"/>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="All Rights Reserved"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff0000"
+			android:text="支持作者开发，请点击获取积分！"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

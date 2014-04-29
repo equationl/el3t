@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/main_bg">
+
+	<TextView
+		android:id="@+id/wellcometext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="欢迎使用EL3T！"
+		android:textColor="#999999"
+		android:textSize="10sp"/>
+
+	<Button
+		android:id="@+id/boot"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/wellcometext"
+		android:layout_marginBottom="10dip"
+		android:visibility="visible"
+		android:text="启动程序"/>
+
+	<Button
+		android:id="@+id/get"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/boot"
+		android:layout_marginBottom="10dip"
+		android:visibility="visible"
+		android:text="获取积分"/>
+
+	<Button
+		android:id="@+id/code"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/get"
+		android:layout_marginBottom="10dip"
+		android:visibility="visible"
+		android:text="获取源码"/>
+
+	<Button
+		android:id="@+id/information"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/code"
+		android:layout_marginBottom="10dip"
+		android:visibility="visible"
+		android:text="信息"/>
+
+</RelativeLayout>
+
